@@ -17,12 +17,12 @@ public class BoardServiceImpl implements BoardService{
 
     @Override
     public int deleteBoard(int id) {
-        return 0;
+        return boardDAO.deleteBoard(id);
     }
 
     @Override
     public int updateBoard(BoardVO vo) {
-        return 0;
+        return boardDAO.updateBoard(vo);
     }
 
     @Override
